@@ -1,0 +1,10 @@
+/**
+* Author: Brian Winward
+*
+* Font color fallback
+* Usage: @include color-fallback($color);
+*/
+
+@mixin color-fallback($color: #f0f) {
+  color: $color;
+}
